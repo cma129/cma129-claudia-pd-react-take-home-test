@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/.github.io/cma129-claudia-pd-react-take-home-test/static/css/main.6e56ce93.css",
-    "main.js": "/.github.io/cma129-claudia-pd-react-take-home-test/static/js/main.2f6c7a86.js",
-    "static/js/787.a33d94db.chunk.js": "/.github.io/cma129-claudia-pd-react-take-home-test/static/js/787.a33d94db.chunk.js",
-    "static/media/banner.jpeg": "/.github.io/cma129-claudia-pd-react-take-home-test/static/media/banner.c06e353032e2b29b890a.jpeg",
-    "static/media/logo.svg": "/.github.io/cma129-claudia-pd-react-take-home-test/static/media/logo.272e22948efaa48b0ea9cf94c90b7bd7.svg",
-    "index.html": "/.github.io/cma129-claudia-pd-react-take-home-test/index.html",
-    "main.6e56ce93.css.map": "/.github.io/cma129-claudia-pd-react-take-home-test/static/css/main.6e56ce93.css.map",
-    "main.2f6c7a86.js.map": "/.github.io/cma129-claudia-pd-react-take-home-test/static/js/main.2f6c7a86.js.map",
-    "787.a33d94db.chunk.js.map": "/.github.io/cma129-claudia-pd-react-take-home-test/static/js/787.a33d94db.chunk.js.map"
+    "main.css": "/cma129-claudia-pd-react-take-home-test/static/css/main.539038be.css",
+    "main.js": "/cma129-claudia-pd-react-take-home-test/static/js/main.4744d5de.js",
+    "static/js/787.a33d94db.chunk.js": "/cma129-claudia-pd-react-take-home-test/static/js/787.a33d94db.chunk.js",
+    "static/media/banner.jpeg": "/cma129-claudia-pd-react-take-home-test/static/media/banner.c06e353032e2b29b890a.jpeg",
+    "static/media/logo.svg": "/cma129-claudia-pd-react-take-home-test/static/media/logo.272e22948efaa48b0ea9cf94c90b7bd7.svg",
+    "index.html": "/cma129-claudia-pd-react-take-home-test/index.html",
+    "main.539038be.css.map": "/cma129-claudia-pd-react-take-home-test/static/css/main.539038be.css.map",
+    "main.4744d5de.js.map": "/cma129-claudia-pd-react-take-home-test/static/js/main.4744d5de.js.map",
+    "787.a33d94db.chunk.js.map": "/cma129-claudia-pd-react-take-home-test/static/js/787.a33d94db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e56ce93.css",
-    "static/js/main.2f6c7a86.js"
+    "static/css/main.539038be.css",
+    "static/js/main.4744d5de.js"
   ]
 }
