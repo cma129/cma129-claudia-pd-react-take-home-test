@@ -1,6 +1,7 @@
 import { createTheme } from "@mui/material/styles";
 
 import colors from "./colors";
+import breakpoints from "./breakpoints";
 
 const mui = createTheme({
   palette: {
@@ -46,6 +47,14 @@ const mui = createTheme({
       lineHeight: 1.2,
       letterSpacing: "-1px",
     },
+    h6: {
+      fontFamily: "Helvetica Neue, Helvetica, Arial, serif",
+      fontSize: "0.75rem",
+      color: colors.textLight,
+      lineHeight: 1.57,
+      letterSpacing: "2.5px",
+      textTransform: "uppercase"
+    },
     body1: {
       color: colors.textLight,
       lineHeight: 1.4,
@@ -88,9 +97,10 @@ const mui = createTheme({
     MuiSelect: {
       styleOverrides: {
         select: {
-          backgroundColor: colors.secondaryVariant1,
+          backgroundColor: 'rgb(36, 51, 65)',
           padding: "8px",
           color: colors.textLight,
+          fontSize: '14px',
         },
       },
     },
@@ -110,6 +120,47 @@ const mui = createTheme({
           "&:hover": {
             borderWidth: "2px",
           },
+        },
+      },
+    },
+    MuiFormControl: {
+      styleOverrides: {
+        root: {
+          display: 'inline-flex',
+          flexDirection: 'column',
+          position: 'relative',
+          padding: '0px',
+          border: '0px',
+          verticalAlign: 'top',
+          marginBottom: '20px',
+          width: '100%',
+          [breakpoints.breakpoints.up('desktop')]: {
+            marginLeft: '20px',
+            width: 'auto',
+            minWidth: '150px',
+          },
+        },
+      },
+    },
+    MuiOutlinedInput: {
+      styleOverrides: {
+        root: {
+          border: '1px solid',
+          borderColor: colors.textDark,
+        },
+      },
+    },
+    MuiList: {
+      styleOverrides: {
+        root: {
+          background: 'rgb(36, 51, 65)',
+        },
+      },
+    },
+    MuiMenuItem: {
+      styleOverrides: {
+        root: {
+          background: 'rgb(36, 51, 65)',
         },
       },
     },

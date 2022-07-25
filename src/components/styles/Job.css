@@ -1,0 +1,26 @@
+.job {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 0;
+  border-bottom: 1px solid rgb(129, 146, 158);
+  cursor: pointer;
+  transition: background 100ms linear;
+}
+
+/* Added this below additional hover/focus effect for job postings. */
+.job:hover,
+.job:focus-visible {
+  background: rgba(129, 146, 158, .05);
+}
+
+.job-content {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .job-content {
+    margin-bottom: 0;
+  }  
+}
